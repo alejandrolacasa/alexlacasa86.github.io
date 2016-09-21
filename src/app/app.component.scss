@@ -15,12 +15,8 @@ $dark:  #333;
   text-align: center;
 }
 
-header {
-  padding: 15% 0 5%;
-}
-
-footer {
-  padding: 5% 0 15%;
+header, footer {
+  padding: 15% 0;
 }
 
 h1 {
@@ -56,6 +52,7 @@ a {
 
 .social {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   list-style: none;
 
@@ -64,6 +61,7 @@ a {
     display: inline-flex;
     padding-left: 40px;
     position: relative;
+    padding-top: 28px;
 
     &::before {
       background-position: center;
